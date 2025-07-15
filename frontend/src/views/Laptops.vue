@@ -4,7 +4,7 @@
     <div class="products">
       <div class="product-card" v-for="laptop in laptops" :key="laptop.id">
         <div class="container-img">
-            <img :src="require(`@/assets/${laptop.image}`)" alt="Laptop" />
+            <img :src="require(`@/../../public/${laptop.image}`)" alt="Laptop" />
         </div>
         <h3>{{ laptop.name }}</h3>
         <p>{{ laptop.description }}</p>

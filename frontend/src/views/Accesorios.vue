@@ -3,7 +3,7 @@
     <h2>Accesorios</h2>
     <div class="products">
       <div class="product-card" v-for="acc in accesorios" :key="acc.id">
-        <img :src="require(`@/assets/${acc.image}`)" alt="Accesorio" />
+        <img :src="require(`@/../../public/${acc.image}`)" alt="Accesorio" />
         <h3>{{ acc.name }}</h3>
         <p>{{ acc.description }}</p>
         <span class="price">${{ acc.price }}</span>

@@ -1,6 +1,6 @@
 <template>
   <div class="carousel-container">
-    <img :src="require(`@/assets/${images[current]}`)" alt="Imagen del carrusel" />
+    <img :src="require(`@/../../public/${images[current]}`)" alt="Imagen del carrusel" />
   </div>
 </template>
 

@@ -3,7 +3,7 @@
     <h2>Celulares</h2>
     <div class="products">
       <div class="product-card" v-for="cel in celulares" :key="cel.id">
-        <img :src="require(`@/assets/${cel.image}`)" alt="Celular" />
+        <img :src="require(`@/../../public/${cel.image}`)" alt="Celular" />
         <h3>{{ cel.name }}</h3>
         <p>{{ cel.description }}</p>
         <span class="price">${{ cel.price }}</span>
